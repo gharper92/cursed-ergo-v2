@@ -6,18 +6,18 @@
         compatible = "zmk,keymap";
 
         default_layer {
-// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// -------------------------------------------
 // |  NUM LK  |    /    |    *    |    -    |
 // |    7     |    8    |    9    |    +    |
-// |    4     |    5    |    6    |         |
+// |    4     |    5    |    6    |   NOP   |
 // |    1     |    2    |    3    |  ENTER  |
-//                 |    0    |    .    |
+// |   NOP    |    0    |   NOP   |    .    |
             bindings = <
     &kp NLCK   &kp FSLH  &kp AST   &kp MINS
     &kp N7     &kp N8    &kp N9    &kp PLUS
-    &kp N4     &kp N5    &kp N6
+    &kp N4     &kp N5    &kp N6    &kp NOP
     &kp N1     &kp N2    &kp N3    &kp RET
-              &kp N0    &kp DOT
+    &kp NOP    &kp N0    &kp NOP   &kp DOT
             >;
         };
     };
