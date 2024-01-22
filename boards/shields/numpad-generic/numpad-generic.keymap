@@ -16,7 +16,7 @@
 // |  LAYERSFT  |    NOP             |    NOP    |   Bluetooth PREV   |
 // |    NOP     |    NOP             |    NOP    |   Bluetooth Next   |
 // |    NOP     |    NOP             |    NOP    |   NOP              |
-// |    NOP     |    NOP             |    NOP    |   NOP              |
+// |Bluetooth 0 |    Bluetooth 1     |Bluetooth 2|   NOP              |
 // |    NOP     |    BluetoothCLR    |    NOP    | bootloader         |
 
 / {
@@ -25,7 +25,7 @@
 
         default_layer {
             bindings = <
-    &mo 1   &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp KP_MINUS
+    &mo 1         &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp KP_MINUS
     &kp KP_N7     &kp KP_N8      &kp KP_N9         &kp KP_PLUS
     &kp KP_N4     &kp KP_N5      &kp KP_N6         &trans
     &kp KP_N1     &kp KP_N2      &kp KP_N3         &kp KP_ENTER
