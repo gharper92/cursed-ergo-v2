@@ -1,6 +1,6 @@
-if SHIELD_MY_BOARD
+if numpad-generic
 
 config ZMK_KEYBOARD_NAME
-    default "My Board"
+    default "numpad-generic"
 
 endif
