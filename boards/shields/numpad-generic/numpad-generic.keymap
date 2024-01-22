@@ -1,17 +1,18 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
 // -------------------------------------------
 // |  NUM LK  |    /    |    *    |    -    |
 // |    7     |    8    |    9    |    +    |
 // |    4     |    5    |    6    |   NOP   |
 // |    1     |    2    |    3    |  ENTER  |
 // |   NOP    |    0    |   NOP   |    .    |
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
             bindings = <
     &kp NLCK   &kp FSLH  &kp AST   &kp MINS
     &kp N7     &kp N8    &kp N9    &kp PLUS
