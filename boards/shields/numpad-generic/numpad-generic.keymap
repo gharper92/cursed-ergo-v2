@@ -15,7 +15,7 @@
 // ------------------functions-----------------
 // |  LAYERSFT  |    NOP             |    NOP    |   Bluetooth PREV   |
 // |    NOP     |    NOP             |    NOP    |   Bluetooth Next   |
-// |    NOP     |    NOP             |    NOP    |   NOP              |
+// |    NOP     |    OUT_TOG         |    NOP    |   NOP              |
 // |Bluetooth 0 |    Bluetooth 1     |Bluetooth 2|   NOP              |
 // |    NOP     |    BluetoothCLR    |    NOP    | bootloader         |
 
@@ -36,7 +36,7 @@
             bindings = <
     &trans       &trans          &trans       &bt BT_PRV
     &trans       &trans          &trans       &bt BT_NXT
-    &trans       &trans          &trans       &trans
+    &trans       &out OUT_TOG    &trans       &trans
     &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &trans
     &trans       &bt BT_CLR      &trans       &bootloader
             >;
