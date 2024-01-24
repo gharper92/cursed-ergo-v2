@@ -37,7 +37,7 @@
         function_layer {
             bindings = <
     &trans       &trans          &trans       &trans
-    &trans       &trans          &kp DEL      &trans
+    &trans       &trans          &kp BSPC     &trans
     &trans       &out OUT_TOG    &trans       &trans
     &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &sys_reset
     &trans       &bt BT_CLR      &trans       &bootloader
