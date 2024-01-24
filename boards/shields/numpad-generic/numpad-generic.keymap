@@ -18,8 +18,8 @@
 // |  LAYERSFT  |    NOP             |    NOP    |   Bluetooth PREV   |
 // |    NOP     |    NOP             |    NOP    |   Bluetooth Next   |
 // |    NOP     |    OUT_TOG         |    NOP    |   NOP              |
-// |Bluetooth 0 |    Bluetooth 1     |Bluetooth 2|   NOP              |
-// |    NOP     |    BluetoothCLR    |    NOP    | bootloader         |
+// |Bluetooth 0 |    Bluetooth 1     |Bluetooth 2|   reset            |
+// |    NOP     |    BluetoothCLR    |    NOP    |   bootloader       |
 
 / {
     keymap {
@@ -39,7 +39,7 @@
     &trans       &trans          &trans       &bt BT_PRV
     &trans       &trans          &trans       &bt BT_NXT
     &trans       &out OUT_TOG    &trans       &trans
-    &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &trans
+    &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &sys_reset
     &trans       &bt BT_CLR      &trans       &bootloader
             >;
         };
