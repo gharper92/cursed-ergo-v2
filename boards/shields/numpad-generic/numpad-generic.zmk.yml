@@ -1,6 +1,6 @@
 file_format: "1"
 id: numpad_generic
-name: Numpad Generic
+name: Generic Numpad
 type: shield
 url: https://github.com/sadteeto/numpad-generic
 requires: [pro_micro]
