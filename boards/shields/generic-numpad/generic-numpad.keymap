@@ -47,7 +47,7 @@
             bindings = <
     &trans       &trans          &trans       &trans
     &trans       &trans          &trans       &trans
-    &kp LEFT     &trans          &kp RIGHT       &trans
+    &kp LEFT     &trans          &kp RIGHT    &trans
     &trans       &trans          &trans       &trans
     &trans       &trans          &trans       &bootloader
             >;
