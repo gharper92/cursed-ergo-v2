@@ -37,10 +37,19 @@
         function_layer {
             bindings = <
     &trans       &trans          &trans       &trans
-    &trans       &trans          &kp BSPC     &trans
+    &kp DEL      &mo 2           &kp BSPC     &trans
     &trans       &out OUT_TOG    &trans       &trans
     &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &sys_reset
-    &trans       &bt BT_CLR      &trans       &bootloader
+    &trans       &bt BT_CLR      &trans       &trans
+            >;
+        };
+        action_layer {
+            bindings = <
+    &trans       &trans          &trans       &trans
+    &trans       &trans          &trans       &trans
+    &kp LEFT     &trans          &kp RIGHT       &trans
+    &trans       &trans          &trans       &trans
+    &trans       &trans          &trans       &bootloader
             >;
         };
     };
