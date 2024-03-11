@@ -7,28 +7,30 @@
 
 
 // ------------------default-----------------
-// | LAYERSFT |    /    |    *    |    -    |
-// |    7     |    8    |    9    |    +    |
-// |    4     |    5    |    6    |         |
-// |    1     |    2    |    3    |  ENTER  |
-// |          |    0    |         |    .    |
+// | prntscrn | scrlk    | pause    | esc      | LAYERSFT |     backspace     | 
+// | inserT   | home     | pgup     | num lock |    /     |    *    |    -    |
+// | delete   | end      | pgdn     |    7     |    8     |    9    |    +    |
+// | A        | B        | C        |    4     |    5     |    6    |         |
+// |          | up       |          |    1     |    2     |    3    |  ENTER  |
+// | Left     | down     | right    |    0                |    .    |         |
 
 
 // ----------------------------functions-------------------------------
-// |  LAYERSFT  |    NOP             |    NOP    |   Bluetooth PREV   |
-// |    NOP     |    LAYERSFT        |    NOP    |   Bluetooth Next   |
-// |    NOP     |    OUT_TOG         |    NOP    |                    |
-// |Bluetooth 0 |    Bluetooth 1     |Bluetooth 2|   reset            |
-// |            |    BluetoothCLR    |           |   NOP              |
+// | NOP  | NOP  | NOP  |    NOP    | LAYERSFT  |    NOP                     |
+// | NOP  | NOP  | NOP  | LAYERSFT  |   NOP     |    NOP    | Bluetooth PREV |
+// | NOP  | NOP  | NOP  |    NOP    |   NOP     |    NOP    | Bluetooth Next |
+// | NOP  | NOP  | NOP  |    NOP    |  OUT_TOG  |    NOP    |                |
+// | NOP  | NOP  | NOP  |   BlE 0   |  BlE 1    |   BLE 2   | reset          |
+// | NOP  | NOP  | NOP  |       BluetoothCLR    |    NOP    |                |
 
 
 // --------------------action layer------------------
-// |     NOP   |     NOP   |     NOP   |     NOP    |
-// |     NOP   |     NOP   |     NOP   |            |
-// |Arrow Left |     NOP   |Arrow Right|     NOP    |
-// |     NOP   |     NOP   |     NOP   |     NOP    |
-// |           |     NOP   |           | Bootloader |
-
+// |   NOP   |    NOP   |   NOP    |    NOP   |    NOP   |    NOP                 |
+// |   NOP   |    NOP   |   NOP    |    NOP   |    NOP   |    NOP    |     NOP    |
+// |   NOP   |    NOP   |   NOP    |    NOP   |    NOP   |    NOP    |     NOP    |
+// |   NOP   |    NOP   |   NOP    |    NOP   |    NOP   |    NOP    |            |
+// |   NOP   |    NOP   |   NOP    |    NOP   |    NOP   |    NOP    |     NOP    |
+// |ArrowLeft|    NOP   |ArrowRight|          |    NOP   | BootLoader|            |
 
 
 
