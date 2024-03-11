@@ -41,7 +41,7 @@
         default_layer {
             bindings = <
     &kp PSCRN  &kp SLCK  &kp PAUSE_BREAK &kp ESC        &mo 1           &kp BSPC
-    &kp INS    &kp HOME  &kp PG_UP       &kp NUMLOCK    &kp KP_DIVIDE  &kp KP_MULTIPLY 
+    &kp INS    &kp HOME  &kp PG_UP       &kp KP_NUM     &kp KP_DIVIDE  &kp KP_MULTIPLY 
 	&kp DEL    &kp END   &kp PG_DN       &kp KP_N7      &kp KP_N8       &kp KP_N9         
     &kp A      &kp B     &kp C           &kp KP_N4      &kp KP_N5       &kp KP_N6
     &kp UP     &kp KP_N1 &kp KP_N2       &kp KP_N3      &kp PLUS        &kp MINUS
