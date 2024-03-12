@@ -44,7 +44,7 @@
         only_game: only_game {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp I &kp Z &kp SPACE &kp O &kp N &kp L &kp Y &kp SPACE &kp G &kp A &kp M &kp E &kp COMMA &kp SPACE &kp W &kp H &kp Y &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp H &kp A &kp F &kp F &kp SPACE &kp T &kp O &kp SPACE &kp B &kp E &kp SPACE &kp M &kp A &kp D>;
+            bindings = <&kp I &kp Z &kp SPACE &kp O &kp N &kp L &kp Y &kp SPACE &kp G &kp A &kp M &kp E &kp COMMA &kp SPACE &kp W &kp H &kp Y &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp H &kp A &kp F &kp F &kp SPACE &kp T &kp O &kp SPACE &kp B &kp E &kp SPACE &kp M &kp A &kp D>;
             label = "ONLY_GAME";
         };
     };
