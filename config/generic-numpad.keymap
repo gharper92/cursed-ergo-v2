@@ -54,7 +54,7 @@
 
         default_layer {
             bindings = <
-&mt LEFT_GUI PRINTSCREEN  &kp INS    &kp DEL    &kp ESC     &mo 1          &kp BSPC
+&mt LG(PRINTSCREEN)  &kp INS    &kp DEL    &kp ESC     &mo 1          &kp BSPC
 &kp L                     &kp C      &kp X      &kp KP_NUM  &kp KP_DIVIDE  &kp KP_MULTIPLY
 &kp T                     &kp O      &kp D      &kp KP_N7   &kp KP_N8      &kp KP_N9
 &kp M                     &kp I      &kp N      &kp KP_N4   &kp KP_N5      &kp KP_N6
