@@ -47,6 +47,27 @@
             bindings = <&kp I &kp Z &kp SPACE &kp O &kp N &kp L &kp Y &kp SPACE &kp G &kp A &kp M &kp E &kp COMMA &kp SPACE &kp W &kp H &kp Y &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp H &kp A &kp F &kp F &kp SPACE &kp T &kp O &kp SPACE &kp B &kp E &kp SPACE &kp M &kp A &kp D>;
             label = "ONLY_GAME";
         };
+
+        tank: tank {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp A &kp N &kp K &kp SPACE &kp D &kp O &kp SPACE &kp S &kp O &kp M &kp E &kp T &kp H &kp I &kp N &kp G>;
+            label = "TANK";
+        };
+
+        dps: dps {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp D &kp P &kp S &kp SPACE &kp S &kp H &kp O &kp O &kp T &kp SPACE &kp S &kp O &kp M &kp E &kp O &kp N &kp E>;
+            label = "DPS";
+        };
+
+        juice_boxes: juice_boxes {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp M &kp SPACE &kp O &kp U &kp T &kp SPACE &kp O &kp F &kp SPACE &kp J &kp U &kp I &kp C &kp E &kp SPACE &kp B &kp O &kp X &kp E &kp S>;
+            label = "JUICE_BOXES";
+        };
     };
 
     keymap {
@@ -67,7 +88,7 @@
             bindings = <
 &kp TAB       &kp TILDE     &trans         &kp LC(LS(ESCAPE))  &mo 1          &kp LC(BACKSPACE)
 &scrub        &gg_ez        &only_game     &mo 2               &kp LG(LS(S))  &kp F11
-&trans        &trans        &trans         &kp LC(K)           &kp LG(V)      &kp LG(PERIOD)
+&tank         &dps          &juice_boxes   &kp LC(K)           &kp LG(V)      &kp LG(PERIOD)
 &kp LC(X)     &kp LC(C)     &kp LC(V)      &kp LC(Z)           &kp LC(Y)      &kp LC(LS(T))
 &kp C_VOL_UP  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2        &bt BT_NXT     &bt BT_PRV
 &kp LG(D)     &kp C_VOL_DN  &kp LG(COMMA)  &bt BT_CLR_ALL      &out OUT_TOG   &trans
