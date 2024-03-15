@@ -54,12 +54,12 @@
 
         default_layer {
             bindings = <
-&mt LG(PRINTSCREEN)  &kp INS    &kp DEL    &kp ESC     &mo 1          &kp BSPC
-&kp L                &kp C      &kp X      &kp KP_NUM  &kp KP_DIVIDE  &kp KP_MULTIPLY
-&kp T                &kp O      &kp D      &kp KP_N7   &kp KP_N8      &kp KP_N9
-&kp M                &kp I      &kp N      &kp KP_N4   &kp KP_N5      &kp KP_N6
-&kp UP               &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp PLUS       &kp MINUS
-&kp LEFT             &kp DOWN   &kp RIGHT  &kp KP_N0   &kp KP_DOT     &kp RETURN
+&mt LGUI PRINTSCREEN  &kp INS    &kp DEL    &kp ESC     &mo 1          &kp BSPC
+&kp L                 &kp C      &kp X      &kp KP_NUM  &kp KP_DIVIDE  &kp KP_MULTIPLY
+&kp T                 &kp O      &kp D      &kp KP_N7   &kp KP_N8      &kp KP_N9
+&kp M                 &kp I      &kp N      &kp KP_N4   &kp KP_N5      &kp KP_N6
+&kp UP                &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp PLUS       &kp MINUS
+&kp LEFT              &kp DOWN   &kp RIGHT  &kp KP_N0   &kp KP_DOT     &kp RETURN
             >;
         };
 
