@@ -66,7 +66,7 @@
         function_layer {
             bindings = <
 &kp TAB       &kp TILDE     &trans         &kp LC(LS(ESCAPE))  &mo 1          &kp LC(BACKSPACE)
-&scrub        &gg_ez        &only_game     &mo 2               &kp LG(LS(S))  &trans
+&scrub        &gg_ez        &only_game     &mo 2               &kp LG(LS(S))  &kp F11
 &trans        &trans        &trans         &kp LC(K)           &kp LG(V)      &kp LG(PERIOD)
 &kp LC(X)     &kp LC(C)     &kp LC(V)      &kp LC(Z)           &kp LC(Y)      &kp LC(LS(T))
 &kp C_VOL_UP  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2        &bt BT_NXT     &bt BT_PRV
