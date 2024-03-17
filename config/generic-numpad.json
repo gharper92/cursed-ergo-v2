@@ -1,52 +1,44 @@
 {
-  "id": "generic-numpad",
-  "name": "generic-numpad",
-  "layouts": {
-    "LAYOUT": {
-      "layout": [
-        { "row": 0, "col": 0, "x":    0, "y":    0, "label": "prnt scrn" },
-        { "row": 0, "col": 1, "x":    1, "y":    0, "label":     "scrlk" },
-        { "row": 0, "col": 2, "x":    2, "y":    0, "label":     "pause" },
-        { "row": 0, "col": 3, "x": 3.25, "y":    0, "label":       "esc" },
-        { "row": 0, "col": 4, "x": 4.25, "y":    0, "label":  "function" },
-        { "row": 0, "col": 5, "x": 5.25, "y":    0, "label":   "bck spc", "u": 2 },
-
-        { "row": 1, "col": 0, "x":    0, "y": 1.25, "label":    "insert" },
-        { "row": 1, "col": 1, "x":    1, "y": 1.25, "label":      "home" },
-        { "row": 1, "col": 2, "x":    2, "y": 1.25, "label":      "PgUp" },
-        { "row": 1, "col": 3, "x": 3.25, "y": 1.25, "label":  "Num Lock" },
-        { "row": 1, "col": 4, "x": 4.25, "y": 1.25, "label":         "/" },
-        { "row": 1, "col": 5, "x": 5.25, "y": 1.25, "label":         "*" },
-
-        { "row": 2, "col": 0, "x":    0, "y": 2.25, "label":       "del" },
-        { "row": 2, "col": 1, "x":    1, "y": 2.25, "label":       "end" },
-        { "row": 2, "col": 2, "x":    2, "y": 2.25, "label":      "pgdn" },
-        { "row": 2, "col": 3, "x": 3.25, "y": 2.25, "label":         "7" },
-        { "row": 2, "col": 4, "x": 4.25, "y": 2.25, "label":         "8" },
-        { "row": 2, "col": 5, "x": 5.25, "y": 2.25, "label":         "9" },
-
-        { "row": 3, "col": 0, "x":    0, "y": 3.25, "label":         "a" },
-        { "row": 3, "col": 1, "x":    1, "y": 3.25, "label":         "b" },
-        { "row": 3, "col": 2, "x":    2, "y": 3.25, "label":         "c" },
-        { "row": 3, "col": 3, "x": 3.25, "y": 3.25, "label":         "4" },
-        { "row": 3, "col": 4, "x": 4.25, "y": 3.25, "label":         "5" },
-        { "row": 3, "col": 5, "x": 5.25, "y": 3.25, "label":         "6" },
-
-        { "row": 4, "col": 0, "x":    1, "y": 4.25, "label":        "up" },
-        { "row": 4, "col": 1, "x": 3.25, "y": 4.25, "label":         "1" },
-        { "row": 4, "col": 2, "x": 4.25, "y": 4.25, "label":         "2" },
-        { "row": 4, "col": 3, "x": 5.25, "y": 4.25, "label":         "3" },
-        { "row": 4, "col": 4, "x": 6.25, "y": 2.25, "label":         "+",         "h": 2 },
-        { "row": 4, "col": 5, "x": 6.25, "y": 1.25, "label":         "-" },
-
-        { "row": 5, "col": 0, "x":    0, "y": 5.25, "label":      "left" },
-        { "row": 5, "col": 1, "x":    1, "y": 5.25, "label":      "down" },
-        { "row": 5, "col": 2, "x":    2, "y": 5.25, "label":     "right" },
-        { "row": 5, "col": 3, "x": 3.25, "y": 5.25, "label":         "0", "u": 2 },
-        { "row": 5, "col": 4, "x": 5.25, "y": 5.25, "label":         "." },
-        { "row": 5, "col": 5, "x": 6.25, "y": 4.25, "label":    "return",         "h": 2 }
-      ]
+    "layouts": {
+      "LAYOUT": {
+        "layout": [
+          { "row": 0, "col":  0, "x": 0,    "y": 0,     "label": "q" },
+          { "row": 0, "col":  1, "x": 1,    "y": 0.125, "label": "w" },
+          { "row": 0, "col":  2, "x": 2,    "y": 0.250, "label": "e" },
+          { "row": 0, "col":  3, "x": 3,    "y": 0.125, "label": "r" },
+		  { "row": 0, "col":  4, "x": 4,    "y": 0,     "label": "t" },
+		  { "row": 0, "col":  5, "x": 5.25, "y": 0,     "label": "esc" },
+          { "row": 1, "col":  0, "x": 0,    "y": 1,     "label": "a" },
+          { "row": 1, "col":  1, "x": 1,    "y": 1.125, "label": "s" },
+          { "row": 1, "col":  2, "x": 2,    "y": 1.250, "label": "d" },
+          { "row": 1, "col":  3, "x": 3,    "y": 1.125, "label": "f" },
+		  { "row": 1, "col":  4, "x": 4,    "y": 1,     "label": "g" },
+		  { "row": 1, "col":  5, "x": 5.25, "y": 1,     "label": "h" },
+          { "row": 2, "col":  0, "x": 0,    "y": 2,     "label": "z" },
+          { "row": 2, "col":  1, "x": 1,    "y": 2.125, "label": "x" },
+          { "row": 2, "col":  2, "x": 2,    "y": 2.250, "label": "c" },
+		  { "row": 2, "col":  3, "x": 3,    "y": 2.125, "label": "v" },
+		  { "row": 2, "col":  4, "x": 4,    "y": 2,     "label": "b" },
+		  { "row": 2, "col":  5, "x": 5.25, "y": 2,     "label": "n" },
+          { "row": 3, "col":  0, "x": 7.25, "y": 0,     "label": "u" },
+          { "row": 3, "col":  1, "x": 8.5,  "y": 0.125, "label": "i" },
+          { "row": 3, "col":  2, "x": 9.5,  "y": 0.250, "label": "o" },
+          { "row": 3, "col":  3, "x": 10.5, "y": 0.125  "label": "p" },
+		  { "row": 3, "col":  4, "x": 11.5, "y": 0,     "label": "5" },
+		  { "row": 3, "col":  5, "x": 12.5, "y": 0,     "label":        "6" },
+		  { "row": 4, "col":  0, "x": 7.25, "y": 1,     "label":       "up" },
+          { "row": 4, "col":  1, "x": 8.5,  "y": 1.125, "label":        "1" },
+          { "row": 4, "col":  2, "x": 9.5,  "y": 1.250, "label":        "2" },
+		  { "row": 4, "col":  3, "x": 10.5, "y": 1.125, "label":        "3" },
+		  { "row": 4, "col":  4, "x": 11.5, "y": 1,     "label":        "+" },
+		  { "row": 4, "col":  5, "x": 12.5, "y": 1,     "label":        "-" },
+		  { "row": 5, "col":  0, "x": 7.25, "y": 2,     "label":     "left" },
+          { "row": 5, "col":  1, "x": 8.5,  "y": 2.125, "label":     "down" },
+          { "row": 5, "col":  2, "x": 9.5,  "y": 2.250, "label":    "right" },
+          { "row": 5, "col":  3, "x": 10.5, "y": 2.125, "label":        "0" },
+		  { "row": 5, "col":  4, "x": 11.5, "y": 2,     "label":        "." },
+		  { "row": 5, "col":  5, "x": 12.5, "y": 2,     "label":   "return" }
+        ]
+      }
     }
-  },
-  "sensors": []
-}
+  }
