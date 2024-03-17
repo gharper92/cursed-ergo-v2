@@ -1,9 +1,8 @@
 {
   "id": "generic-numpad",
-  "name": "generic-numpad",
-	
-    "layouts": {
-      "LAYOUT": {
+  "name": "generic-numpad",	
+  "layouts": {
+     "LAYOUT": {
         "layout": [
           { "row": 0, "col":  0, "x": 0,    "y": 0,     "label": "q" },
           { "row": 0, "col":  1, "x": 1,    "y": 0.125, "label": "w" },
